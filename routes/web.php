@@ -28,3 +28,10 @@ Route::get('blog', function () {
 Route::get('coba', function () {
     return view('coba');
 });
+
+Route::get('testing', function () {
+    return "Ini Testing";
+});
+
+Route::get('pegawai', 'App\Http\Controllers\PegawaiController@index');
+Route::get('dosen', 'App\Http\Controllers\DosenController@index');
