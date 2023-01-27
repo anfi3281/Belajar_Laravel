@@ -35,3 +35,4 @@ Route::get('testing', function () {
 
 Route::get('pegawai', 'App\Http\Controllers\PegawaiController@index');
 Route::get('dosen', 'App\Http\Controllers\DosenController@index');
+Route::get('biodata', 'App\Http\Controllers\BiodataController@index');
